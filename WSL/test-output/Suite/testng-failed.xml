@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="WorkSiteLabs.WSL.Admin_Keymetrics_Test">
+        <methods>
+          <include name="allKeymetricsMethods"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Admin_Keymetrics_Test -->
+      <class name="WorkSiteLabs.WSL.Manage_AdminTest">
+        <methods>
+          <include name="allmanageheadings"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Manage_AdminTest -->
+      <class name="WorkSiteLabs.WSL.Nominor_Nosymptoms_BookappointmentTest">
+        <methods>
+          <include name="loginDataProvider"/>
+          <include name="noMinorNoSymptoms" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Nominor_Nosymptoms_BookappointmentTest -->
+      <class name="WorkSiteLabs.WSL.Report_Admin_Test">
+        <methods>
+          <include name="allReportsData"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Report_Admin_Test -->
+      <class name="WorkSiteLabs.WSL.Resuts_Slotoccupancy_AdminTest">
+        <methods>
+          <include name="allResultsAndSlotData"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Resuts_Slotoccupancy_AdminTest -->
+      <class name="WorkSiteLabs.WSL.BookAppointmentTest">
+        <methods>
+          <include name="allBookAppointmentDetails"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.BookAppointmentTest -->
+      <class name="WorkSiteLabs.WSL.Two_Minor_Two_Symptoms_BookAppointmentTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="twoMinorsData" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Two_Minor_Two_Symptoms_BookAppointmentTest -->
+      <class name="WorkSiteLabs.WSL.Day_Wise_Appointment_Test">
+        <methods>
+          <include name="allDayWiseAppointmentMethods"/>
+        </methods>
+      </class> <!-- WorkSiteLabs.WSL.Day_Wise_Appointment_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
