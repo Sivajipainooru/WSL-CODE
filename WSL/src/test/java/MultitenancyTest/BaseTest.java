@@ -10,6 +10,7 @@ public class BaseTest extends Base {
 	{
 		LaunchingMultitenancy();
 		Domestic();
+		signInPage();
 	}
 
 }

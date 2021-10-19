@@ -17,6 +17,8 @@
       <class name="WorkSiteLabs.WSL.Manage_AdminTest"/>
       <class name="WorkSiteLabs.WSL.Invalid_Email_ErrorMessag_Test"/>
       <class name="WorkSiteLabs.WSL.Report_Admin_Test"/>
+      <class name="Multitenancy.myProfilePageDataAndEditeMinorDataTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
