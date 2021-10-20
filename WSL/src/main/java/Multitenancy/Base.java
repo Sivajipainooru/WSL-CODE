@@ -26,6 +26,13 @@ public class Base {
 	By EmailId               =  By.xpath("//input[@name='email']");
 	By Password              =  By.xpath("//input[@placeholder='Password']");
 	By SignIn                =  By.xpath("//button[@type='submit']");
+	public void amazon()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\softsuave\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.com");
+	}
 	public void email()
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\softsuave\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
